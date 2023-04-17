@@ -5,6 +5,11 @@
 - 一键抠图,一键切换图片背景,旧照片修复,AI人像多风格漫画,多场景文字识别,AI视屏卡通化,中文StableDiffusion-文本生成图像
 -  removebg,changebg,repair-photo,human-cartoon,video-cartoon,ocr,cntext2image
 
+## 在线演示地址
+
+https://sakoo-fuxi-ai.hf.space/?logs=build&__theme=light
+
+可能需要科学上网
 
 
 ### 功能展示
