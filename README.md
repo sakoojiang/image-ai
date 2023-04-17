@@ -83,10 +83,10 @@ pip install fairseq
 
 
 
-## docker构建
+## docker build
 
 ```
-
+等待更新
 ```
 
         
