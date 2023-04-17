@@ -13,10 +13,10 @@ https://sakoo-fuxi-ai.hf.space/?logs=build&__theme=light
 ![图片](./images/通用抠图.png)
 
 - 旧照片修复
-![图片](https://vigen-video.oss-cn-shanghai.aliyuncs.com/ModelScope/studio_old_photo_restoration/overview_long.gif?OSSAccessKeyId=LTAI4Ffgrqm3FbDKBTk4ddwe&Expires=1992627209&Signature=U0umGRRixAD2qgxvShtReLtxuzM%3D)
+![图片](./images/photorepair.gif)
 
 - AI人像多风格漫画 & AI视屏卡通化
-![图片](https://modelscope.oss-cn-beijing.aliyuncs.com/demo/image-cartoon/demo_sin1.gif)
+![图片](./images/cartoon.gif)
 
 - 中文StableDiffusion-文本生成图像
 ![图片](./images/wenshengtufull.jpg)
@@ -39,10 +39,6 @@ https://sakoo-fuxi-ai.hf.space/?logs=build&__theme=light
 
 ## 开发环境搭建
 
-```
- 某些环境下视频卡通画有可能会因为缺少ffmpeg报错
- pip install ffmpeg (or conda install ffmpeg -c conda-forge)
-```
 
 
 请参考https://modelscope.cn/docs/环境搭建  准备好初始开发环境
