@@ -12,15 +12,23 @@ https://sakoo-fuxi-ai.hf.space/?logs=build&__theme=light
 - 一键抠图
 ![图片](./images/通用抠图.png)
 
+<hr>
+
+- 一键切换图片背景
+![图片](./images/changebg.jpg)
+<hr>
+
 - 旧照片修复
-![图片](./images/photorepair.gif)
+![图片](./images/photorepiar.jpg)
+<hr>
 
 - AI人像多风格漫画 & AI视屏卡通化
-![图片](./images/cartoon.gif)
+![图片](./images/cartoon.jpg)
+<hr>
 
 - 中文StableDiffusion-文本生成图像
 ![图片](./images/wenshengtufull.jpg)
-
+<hr>
 
 
 ## Docker安装，默认仅启用 一键抠图和一键切换图片背景:

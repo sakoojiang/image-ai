@@ -15,7 +15,6 @@ def inference(filepath, style,request: gr.Request,progress=gr.Progress()):
     print(outpath)
     reader = imageio.get_reader(filepath)
     fps = reader.get_meta_data()['fps']
-    print(fps)
     writer = imageio.get_writer(outpath, mode='I', fps=fps, codec='libx264')
     pipeline = None
     if style == "anime":
