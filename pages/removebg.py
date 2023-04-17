@@ -33,7 +33,7 @@ with gr.Blocks() as removeBgApplication:
                     removeBgDefaultImageInput = gr.Image()
                     removeBgDefaultImageOutput = gr.Image(type="pil")
                 with gr.Row():
-                    removeBgDefaultBtn = gr.Button("提交")
+                    removeBgDefaultBtn = gr.Button("提交removeBgApplication")
                 with gr.Row():
                     gr.Examples([["./images/examples/removebg-default1.jpg"],["./images/examples/removebg-default2.jpg"]],inputs=removeBgDefaultImageInput)
 

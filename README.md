@@ -80,6 +80,15 @@ pip install fairseq
 
 ```
 
+## 验证单个模型
+```
+    
+    命令行输入:   gradio  pages/removebg.py removeBgApplication
+    gradio 文件的相对路径  要加载的app名称
+    此方法自动感知文件变化，用于开发阶段提高效率
+
+```
+
 
 
 ## docker build
