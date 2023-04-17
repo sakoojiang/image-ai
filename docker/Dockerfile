@@ -9,6 +9,6 @@ RUN pip install --no-cache-dir  scikit-image -i  https://pypi.tuna.tsinghua.edu.
 RUN pip3 install --no-cache-dir  easydict -i  https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip install --no-cache-dir  fairseq -i  https://pypi.tuna.tsinghua.edu.cn/simple
 
-ADD fuxi-ai.tar.gz /opt/
-WORKDIR /opt/fuxi-ai
+ADD image-ai.tar.gz /opt/
+WORKDIR /opt/image-ai
 ENTRYPOINT ["python","-u","main.py"]

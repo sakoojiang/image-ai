@@ -32,14 +32,14 @@
 
 ## Docker安装，默认仅启用 一键抠图和一键切换图片背景:
 ```
- docker run --name  modelscope  -p 7860:7860 -e  "XDG_CACHE_HOME=/mnt/workspace/.cache" \
+ docker run --name  modelscope  -p 7860:7860  \
   -v /home/workspace/.cache:/mnt/workspace/.cache     -d   sakoo123/modelscope:1.0
 
 ```
 
 ## Docker启用全部功能
 ```
- docker run --name  modelscope  -p 7860:7860 -e  "XDG_CACHE_HOME=/mnt/workspace/.cache" \
+ docker run --name  modelscope  -p 7860:7860  \
  -e  "types=removebg,changebg,repair-photo,human-cartoon,video-cartoon,ocr,cntext2image"  \ 
  -v /home/workspace/.cache:/mnt/workspace/.cache     -d   sakoo123/modelscope:1.0
 ```
@@ -94,7 +94,13 @@ pip install fairseq
 ## docker build
 
 ```
-等待更新
+  
+  git clone https://github.com/sakoojiang/image-ai.git
+  cp image-ai/docker/Dockerfile .
+  tar czvf image-ai.tar.gz  image-ai
+  docker build -t you-docker-image-name:1.0  .
+  
+  
 ```
 
         
