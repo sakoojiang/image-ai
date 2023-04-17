@@ -15,13 +15,14 @@ if __name__ == '__main__':
         cntext2image: "中文StableDiffusion-文本生成图像"
 
     }
-    types=os.getenv('types')
-    if types is None or types == '':
-        print("缺少环境变量types")
-        exit(-1)
+    types = os.getenv('types','removebg,changebg')
+    concurrency_count = os.getenv("queue",2)
+
+
     print("active types="+types)
 
-    actives=types.split(",")
+    actives = types.split(",")
+
 
     appNameList = []
     appList = []
@@ -56,4 +57,4 @@ if __name__ == '__main__':
 
 
     app = gr.TabbedInterface(appList,appNameList)
-    app.queue().launch(server_name="0.0.0.0")
+    app.queue(concurrency_count=concurrency_count).launch(server_name="0.0.0.0")
