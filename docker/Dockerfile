@@ -1,6 +1,5 @@
 # 用于x86  CPU环境的docker构建文件
 FROM  registry.cn-hangzhou.aliyuncs.com/modelscope-repo/modelscope:ubuntu20.04-py37-torch1.11.0-tf1.15.5-1.4.3
-FROM modelscope
 ENV types removebg,changebg
 ENV XDG_CACHE_HOME /mnt/workspace/.cache
 
